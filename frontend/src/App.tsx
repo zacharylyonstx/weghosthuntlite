@@ -1,9 +1,9 @@
 import react from 'react'
 import type { FC } from 'react';
 import 'antd/dist/reset.css';
-import "@ant - design/flowchart/dist/index.css";
+// import "@ant - design/flowchart/dist/index.css";
 import './App.css';
-
+import MainPage from './pages/MainPage'
 import { Button, ConfigProvider } from 'antd';
 import React from 'react';
 
@@ -16,7 +16,7 @@ const App: FC = () => (
         },
       }}
     >
-      <Button type="primary">Button</Button>
+      <MainPage />
     </ConfigProvider>
   </div>
 );
