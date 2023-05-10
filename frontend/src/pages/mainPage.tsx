@@ -4,12 +4,10 @@ import { Upload, Button, Row, Col, Typography } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
 import Papa from "papaparse";
 import { useDispatch } from "react-redux";
-import CombinedChart from "./components/combinedCharts";
-import IndividualCharts from "./components/individualCharts";
+import CombinedChart from "../components/combinedCharts";
+import IndividualCharts from "../components/individualCharts";
 
-const { Title } = Typography;
-
-const App: React.FC = () => {
+const MainPage: React.FC = () => {
   const dispatch = useDispatch();
 
   const handleFileUpload = (file: File) => {
@@ -23,10 +21,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="app-container">
+    <div>
       <Row>
         <Col span={24}>
-          <Title style={{ color: '#28B2F0' }}>WeGhostHunt - EDI+ Data Visualizer</Title>
+          <Typography.Title>CSV Data Visualization</Typography.Title>
         </Col>
       </Row>
       <Row>
@@ -54,4 +52,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default MainPage;

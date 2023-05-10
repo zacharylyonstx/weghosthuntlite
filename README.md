@@ -1,10 +1,61 @@
-# Getting Started with Create React App
+# WeGhostHunt - EDI+ Data Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application used to visualize the data recorded by the "EDI+" product by [Centex Paranormal](https://centexparanormal.com).
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- React 18.2.0
+- TypeScript 4.4.2
+- Ant Design 5.3.2
+- Ant Design Charts 1.4.2
+- and more...
+
+## Features
+
+- Upload a CSV file to visualize data
+- Sleek and responsive design, perfect for viewing on any device
+- Visualize data with Combined and Individual Charts
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed Node.js and npm/yarn.
+- You have a basic understanding of React and TypeScript.
+
+### Installation
+
+1. Clone the repository.
+
+    ```bash
+    git clone [git@github.com:zacharylyonstx/weghosthuntlite.git](https://github.com/zacharylyonstx/weghosthuntlite.git)
+    ```
+
+2. Move into the frontend directory.
+
+    ```bash
+    cd weghosthuntlite/frontend
+    ```
+
+3. Install the dependencies.
+
+    ```bash
+    yarn install
+    ```
+
+4. Run the project.
+
+    ```bash
+    yarn start
+    ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Usage
 
 ### `yarn start`
 
@@ -38,9 +89,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
